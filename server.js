@@ -18,6 +18,6 @@ app.get("/api",(req,res)=>{
 app.post("/api/submit-form",formController.add)
 app.get("/api/submissions",formController.list)
 
- app.listen(80,()=>{
+ app.listen(5000,()=>{
     console.log("server started")
  })
